@@ -12,7 +12,7 @@ echo ""
 sudo find /home/ -iname "*.mp3" -print       # it will search in home directory for all mp3 files
 echo " "
 echo " "
-echo -n "Would you like to group in one directory? Type [y/n] "
+echo -n "Would you like to organize in one directory? Type [y/n] "
 read response
 
 
@@ -21,5 +21,5 @@ case $response in [Yy][Ee][Ss]|[Yy])
       mkdir /home/smruti/MP3
      sudo find / -iname "*.mp3" -exec mv {} /home/smruti/MP3 \;
       echo "Hello  successful " ;; *) 
-    echo " very bad .  Should " ;; 
+    echo " very bad . You Should organize  things ....... :-0 " ;; 
 esac
